@@ -1,0 +1,6 @@
+times = ('Palmeiras', 'Flamengo', 'Internacional', 'Gremio', 'São Paulo', 'Atletico-MG', 'Athletico-PR', 'Cruzeiro', 'Botafogo', 'Santos', 'Bahia', 'Fluminense', 'Corinthians', 'Chapecoense', 'Ceara', 'Vasco', 'Sport', 'America-MG', 'Vitoria', 'Parana')
+print(f'Colocação dos times no Brasilerirão 2018: {times}')
+print(f'Os primeiros 5 colocados do Brasileirão 2018 foram: {times[0:5]}')
+print(f'Os ultimos 4 colocados do Brasileirão 2018 foram: {times[-4:]}')
+print(f'Os times em ordem alfabetica ficam: {sorted(times)}')
+print(f'O time da Chapecoense está na {times.index("Chapecoense")+1}° posição')
